@@ -5,23 +5,27 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Productly</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap"        rel="stylesheet">
         <link rel="stylesheet" href="src/style/reset.css">
         <link rel="stylesheet" href="src/style/index.css">
     </head>
     <body>
         <header>
             <div class="header_container">
+                <div class="logo" >
+                    <a href="">
+                        <img src="src/image/logo.svg" alt="logo">
+                    </a>
+                </div>
                 <nav class="header_container_nav">
                     <ul>
-                        <li class="logo"><a href="">
-                            <img src="src/image/logo.svg" alt="logo">
-                        </a>
-                        </li>
                         <li><a href="">Product</a></li>
                         <li><a href="">Customers</a></li>
                         <li><a href="">Pricing</a></li>
                         <li><a href="">Resources</a></li>
-                        <li id="signup" class="header_li_button1"><button type="button" class="header_button_sign_in">Sign in</button></li>
+                        <li class="header_li_button1"><button type="button" class="header_button_sign_in">Sign in</button></li>
                         <li class="header_button"><button type="button" class="header_button_sign_up">Sign up</button></li>
                     </ul>
                 </nav>
@@ -33,9 +37,7 @@
                    <p>Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
                    <button type="button" class="hero_left_button">Get started</button> 
                 </div>
-                <div class="hero_right">
-                    <img src="src/image/image.svg" alt="people">
-                </div>
+                <img class="hero_right" src="src/image/image.svg" alt="people">
         </section>
     </body>
 </html>
