@@ -59,7 +59,8 @@ li{
     display: inline-block;
 }
 .hero_right{
-   float: right;
+    margin-top:-150px ;
+   /* float: right; */
    /* margin-top: 70px; */
 }
 h1{
