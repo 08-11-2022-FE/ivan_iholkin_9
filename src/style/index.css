@@ -230,3 +230,69 @@ input[type="tel"]::placeholder{
     width:118px ;
     height: 30px;
 }
+
+.wedesign{
+        width: 1200px;
+        margin: 0 auto;
+        height: 510px;
+        background: linear-gradient(179.61deg, rgba(255, 229, 210, 0.629261) 0.33%, rgba(255, 244, 229, 0.0001) 99.67%);
+       
+     
+}
+.wedesign_h2{
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #2F281E;
+    width: 539px;
+    height: 88px;
+    margin-top: 100px;
+    margin-bottom: 31px;
+}
+
+.wedesign ul{
+    width: 1440px;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:nowrap
+}
+.wedesign_button{
+    margin: 0 auto;
+    width: 180px;
+    height: 50px;
+    display: block;
+    margin-top: 83px;
+    background: #FF9900;
+    border-radius: 4px;
+    border:none;
+    color: #FFFFFF;
+}
+.wedesign ul li{
+    width: 270px;
+    margin-left: 0px;
+    margin-top: 19px;
+}
+.wedesign_cont li p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #2F281E;
+    height: 27px;
+    margin-bottom: 16px;
+}
+
+.wedesign_cont li span{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;    
+    color: #544837;
+    width: 270px;
+}
