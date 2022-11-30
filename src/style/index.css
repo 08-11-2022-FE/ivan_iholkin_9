@@ -1,6 +1,8 @@
 html{
     font-family: 'Montserrat';
     font-style: normal;
+    width: 1440px;
+    margin: 0 auto;
 }
 .header_container{
     display: inline-block;
@@ -113,4 +115,118 @@ box-shadow: 3px 3px rgb(239, 176, 40), -1em 0 .4em rgb(196, 116, 12);
     background-color:dimgrey;
     box-shadow: 3px 3px rgb(239, 176, 40), -1em 0 .4em rgb(196, 116, 12);
     color: #fff;
+}
+
+.footer{
+    width: 1200px;
+    margin: 0 auto;
+}
+.footer_container{
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:center;
+    width: 1200px;
+}
+.footer_container>div{
+    display: flex;
+    flex-direction: column;
+    box-sizing:border-box;
+    /* width:25%; */
+    max-width:100%;
+    /* align-items:flex-end; */
+    /* align-content: flex-start; */
+    justify-content:start;
+    align-items: baseline;
+}
+.footer_ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 209px;
+    /* align-items:flex-start; */
+    /* align-content:flex-start; */
+
+}
+
+
+.footer_contact{
+    display: flex;
+    flex-direction: column;
+    width:340px ;
+    justify-content: space-between;
+}
+
+.footer_logo{
+    padding-right:130px ;
+}
+
+.footer_stuff{
+    margin-right: 153px;
+    width: 135px;
+}
+
+.footer_links{
+    margin-right: 147px;
+    width: 135px;
+}
+.footer_ul li{
+    padding-bottom: 15px;
+    padding-right: 0;
+    margin: 0;
+}
+.footer_ul li:first-child{
+    width: 118px;
+    color: #2F281E;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 30px ;    
+}
+form>span{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2F281E; 
+    width: 280px;
+    height: 57px;
+}
+input[type="tel"]{
+    width: 340px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    color: #BCD0E5;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+}
+
+button[type="submit"]{
+    width: 180px;
+    height: 50px;
+    background: #FF9900;
+    border-radius: 4px;
+    color: #FFFFFF;
+    border:none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24p
+}
+input[type="tel"]::placeholder{
+    width: 212px;
+    height: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #BCD0E5; 
+}
+.limk_span{
+    display: inline-block;
+    width:118px ;
+    height: 30px;
 }
