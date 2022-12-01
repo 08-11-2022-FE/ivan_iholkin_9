@@ -235,8 +235,10 @@ input[type="tel"]::placeholder{
         width: 1200px;
         margin: 0 auto;
         height: 510px;
-        background: linear-gradient(179.61deg, rgba(255, 229, 210, 0.629261) 0.33%, rgba(255, 244, 229, 0.0001) 99.67%);
-       
+        /* background-image:url(../image/bg.png); */
+        /* background-size: cover; */
+        /* background-position:center; */
+        /* background-position: center; */
      
 }
 .wedesign_h2{
