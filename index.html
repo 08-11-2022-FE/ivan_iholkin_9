@@ -5,23 +5,27 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Productly</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap"        rel="stylesheet">
         <link rel="stylesheet" href="src/style/reset.css">
         <link rel="stylesheet" href="src/style/index.css">
     </head>
     <body>
         <header>
             <div class="header_container">
+                <div class="logo" >
+                    <a href="">
+                        <img src="src/image/logo.svg" alt="logo">
+                    </a>
+                </div>
                 <nav class="header_container_nav">
                     <ul>
-                        <li class="logo"><a href="">
-                            <img src="src/image/logo.svg" alt="logo">
-                        </a>
-                        </li>
                         <li><a href="">Product</a></li>
                         <li><a href="">Customers</a></li>
                         <li><a href="">Pricing</a></li>
                         <li><a href="">Resources</a></li>
-                        <li id="signup" class="header_li_button1"><button type="button" class="header_button_sign_in">Sign in</button></li>
+                        <li class="header_li_button1"><button type="button" class="header_button_sign_in">Sign in</button></li>
                         <li class="header_button"><button type="button" class="header_button_sign_up">Sign up</button></li>
                     </ul>
                 </nav>
@@ -33,9 +37,65 @@
                    <p>Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
                    <button type="button" class="hero_left_button">Get started</button> 
                 </div>
-                <div class="hero_right">
-                    <img src="src/image/image.svg" alt="people">
-                </div>
+                <img class="hero_right" src="src/image/image.svg" alt="people">
         </section>
+        <section class="wedesign">
+            <h2 class="wedesign_h2">We design tools to unveil your superpowers</h2>
+            <ul class="wedesign_cont">
+                <li>
+                    <img src="src/image/icon-8.svg" alt="clickLogo">
+                    <p>First click tests</p>
+                    <span>While most people enjoy casino gambling,</span>
+                </li>
+                <li>
+                    <img src="src/image/icon-9.svg" alt="logo">
+                    <p>Design surveys</p>
+                    <span>Sports betting, lottery and bingo playing for the fun</span>
+                </li>
+                <li>
+                    <img src="src/image/icon-10.svg" alt="heartlogo">
+                    <p>Preference tests</p>
+                    <span>The Myspace page defines the individual.</span>
+                </li>
+                <li>
+                    <img src="src/image/icon-11.svg" alt="sandclocklogo">
+                    <p>Five second tests</p>
+                    <span>Personal choices and the overall personality of the person. </span>
+                </li>
+            </ul>
+            <button type="button" class="wedesign_button">Sign up Now</button>
+        </section>
+        <footer class="footer">
+            <section class="footer_container">
+                <div class="footer_logo">
+                    <img src="src/image/logo-2.svg" alt="logo">
+                </div>
+                <div class="footer_links">
+                        <ul class="footer_links-item footer_ul">
+                            <li><span class="link_span">Quick Links</span></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li><a href="">FAQ</a></li>
+                        </ul> 
+                </div>
+                <div class="footer_stuff">
+                    <ul class="footer_stuff_item footer_ul">
+                        <li><span>Legal Stuff</span></li>
+                        <li><a href="">Disclaimer</a></li>
+                        <li><a href="">Financing</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <form action="" class="footer_contact">
+                    <span class="footer_p">Knowing you're always on the best energy deal. 
+                    </span>
+                    <input type="tel" placeholder="Enter your phone Number">
+                    <button type="submit">Sign up Now</button>
+                </form>
+                
+            </section>
+        </footer>
     </body>
 </html>
