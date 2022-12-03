@@ -235,10 +235,11 @@ input[type="tel"]::placeholder{
         width: 1200px;
         margin: 0 auto;
         height: 510px;
-        /* background-image:url(../image/bg.png); */
-        /* background-size: cover; */
-        /* background-position:center; */
-        /* background-position: center; */
+        background-image:url(../image/bg.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position:bottom;
+       
      
 }
 .wedesign_h2{
@@ -257,7 +258,7 @@ input[type="tel"]::placeholder{
 }
 
 .wedesign ul{
-    width: 1440px;
+    width: 1200px;
     display: flex;
     justify-content:space-between;
     flex-wrap:nowrap
